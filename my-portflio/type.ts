@@ -1,5 +1,5 @@
 import { type } from "os";
-import { IconType } from "REACT-icons";
+import { IconType } from "react-icons";
 
 export interface IService {
     Icon: IconType,
