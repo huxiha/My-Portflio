@@ -107,6 +107,16 @@ export const projects:IProject[] = [
         category: ["REACT", "CSS", "JS"],
         key_techs: ["React.js", "css", "javascript", "Json Server"],
     },
+    {
+        id: 10,
+        name: "my-portflio",
+        description: "This is my portflio.",
+        image_path: "/images/myPortflio.png",
+        deployed_url: "https://my-portflio.vercel.app/",
+        github_url: "https://github.com/huxiha/My-Portflio/tree/main/my-portflio",
+        category: ["NEXT"],
+        key_techs: ["Next.js", "TailwindCSS", "typscript", "Framer Motion"],
+    },
 
 
    
