@@ -10,7 +10,7 @@ export const services:IService[] = [
     },
     {
         Icon: FaServer,
-        title: "Frontend Development",
+        title: "Backend Development",
         about: "I can build beutiful web pages using <b>html</b>, <b>css</b>, <b>js</b> and <b>React.js</b>"
     },
     

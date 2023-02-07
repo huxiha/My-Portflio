@@ -5,7 +5,6 @@ const NavItem:FunctionComponent<{categoryName:Category, activeItem:Category, han
     {categoryName, activeItem, handleFilter}) => {
 
     let className = "cursor-pointer ";
-    console.log(activeItem);
     if(activeItem === categoryName) {
         className += "text-green-500";
     }

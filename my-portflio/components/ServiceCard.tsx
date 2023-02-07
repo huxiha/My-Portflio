@@ -1,6 +1,5 @@
 import { IService } from "@/type";
 import { FunctionComponent } from "react";
-import { IconType } from "react-icons";
 
 const ServiceCard:FunctionComponent<{
     service: IService

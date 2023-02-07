@@ -14,7 +14,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         <div className='col-span-12 p-4 text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark'>
           <SideBar/>
         </div>
-        <div className='col-span-12 bg-white dark:bg-dark-500 lg:col-span-9 rounded-2xl'>
+        <div className='flex flex-col col-span-12 bg-white dark:bg-dark-500 lg:col-span-9 rounded-2xl'>
           <NavBar />  
           <AnimatePresence>
             <Component {...pageProps} key={router.route}/>

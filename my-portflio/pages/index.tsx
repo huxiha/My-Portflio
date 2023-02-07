@@ -11,12 +11,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <motion.div className='px-6 pt-1' variants={routeAnimation} initial="initial" animate="animation">
-      <h5 className='my-3 font-medium'>
-        I have 3+ years of working experience in software test (functional test/automated test/ performance test).
+    <motion.div className='px-6 pt-1 ' variants={routeAnimation} initial="initial" animate="animation">
+      <h5 className='my-3 font-medium text'>
+        I have 3+ years of working experience in software test including functional test, automated test, and performance test.
         I am currently learing web3 Technology with the road I found in the internet.
-        I have learned font-end(html/css/javascript/react) and have done some front-end projects.
-        Now I am learning the back-end(node/express/databse(postgre/mongodb)/Next/typescript/tailwindcss) and doing some projects.
+        I have learned fontend html,css,javascript,react, and have done some frontend projects.
+        Now I am learning the backend node.js, express.js, databse postgre and mongodb, Next.js, typescript and tailwindcss and doing some projects.
       </h5>
       
       <div className='p-6 mt-5 bg-gray-400 dark:bg-dark-100' style={{marginLeft:"-1.5rem", marginRight:"-1.5rem"}}>
